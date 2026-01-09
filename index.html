@@ -62,52 +62,118 @@
     </section>
 
     <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
+    <section id="about" style="padding: 60px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h1 style="font-size: 3rem; font-weight: 700; color: #ffffff; margin-bottom: 20px; position: relative; display: inline-block;">
+                About Me
+                <span style="content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%); border-radius: 2px; display: block;"></span>
+            </h1>
+        </div>
+        
+        <div style="background: rgba(255, 255, 255, 0.95); border-radius: 20px; padding: 40px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); backdrop-filter: blur(10px); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <img src="images/nathatop_me.jpg" class="imageAboutPage" alt="">
+                    <div style="position: relative; margin-bottom: 30px;">
+                        <img src="images/nathatop_me.jpg" 
+                             style="width: 100%; height: 350px; object-fit: cover; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;"
+                             onmouseover="this.style.transform='scale(1.05)'" 
+                             onmouseout="this.style.transform='scale(1)'"
+                             class="imageAboutPage" 
+                             alt="Dineshwar Singh">
+                    </div>
                 </div>
 
                 <div class="col-lg-8">
-                    <p> Hello, I am currently pursuing Bachelors in Engineering from Government
-                        College for Engineering and Technology jammu.I am seeking to dive in the world of web developers
-                        and try the opportunities to apply my skills and continue learning. I have a strong
-                        foundation in HTML, CSS, and JavaScript, and am proficient in responsive web design
-                        and cross-browser compatibility.
+                    <p style="color: #2d3748; font-size: 1.1rem; line-height: 1.8; margin-bottom: 30px;">
+                        Hello! I am currently pursuing a Bachelor's in Engineering from Government College for Engineering and Technology, Jammu. I'm passionate about diving into the world of web development and exploring opportunities to apply my skills while continuing to learn and grow. I have a strong foundation in HTML, CSS, and JavaScript, with proficiency in responsive web design and cross-browser compatibility.
                     </p>
-                    <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: Dineshwar Singh</li>
-                                <li>Age: 19</li>
-                                <li>Web Developer</li>
 
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Jammu</li>
-                                <li>5'10</li>
-                                <li>Tech Enthusiast</li>
-
-                            </ul>
+                    <div style="background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); border-radius: 15px; padding: 30px; margin: 30px 0;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(102, 126, 234, 0.1); transition: all 0.3s ease;"
+                                     onmouseover="this.style.paddingLeft='10px'; this.style.color='#667eea'"
+                                     onmouseout="this.style.paddingLeft='0'; this.style.color='inherit'">
+                                    <i class="fas fa-user" style="color: #667eea; margin-right: 15px; font-size: 1.2rem; width: 25px; text-align: center;"></i>
+                                    <span><strong style="color: #4a5568; margin-right: 8px;">Name:</strong> Dineshwar Singh</span>
+                                </div>
+                                <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(102, 126, 234, 0.1); transition: all 0.3s ease;"
+                                     onmouseover="this.style.paddingLeft='10px'; this.style.color='#667eea'"
+                                     onmouseout="this.style.paddingLeft='0'; this.style.color='inherit'">
+                                    <i class="fas fa-calendar-alt" style="color: #667eea; margin-right: 15px; font-size: 1.2rem; width: 25px; text-align: center;"></i>
+                                    <span><strong style="color: #4a5568; margin-right: 8px;">Age:</strong> 19</span>
+                                </div>
+                                <div style="display: flex; align-items: center; padding: 12px 0; transition: all 0.3s ease;"
+                                     onmouseover="this.style.paddingLeft='10px'; this.style.color='#667eea'"
+                                     onmouseout="this.style.paddingLeft='0'; this.style.color='inherit'">
+                                    <i class="fas fa-code" style="color: #667eea; margin-right: 15px; font-size: 1.2rem; width: 25px; text-align: center;"></i>
+                                    <span><strong style="color: #4a5568; margin-right: 8px;">Role:</strong> Web Developer</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(102, 126, 234, 0.1); transition: all 0.3s ease;"
+                                     onmouseover="this.style.paddingLeft='10px'; this.style.color='#667eea'"
+                                     onmouseout="this.style.paddingLeft='0'; this.style.color='inherit'">
+                                    <i class="fas fa-map-marker-alt" style="color: #667eea; margin-right: 15px; font-size: 1.2rem; width: 25px; text-align: center;"></i>
+                                    <span><strong style="color: #4a5568; margin-right: 8px;">Location:</strong> Jammu, India</span>
+                                </div>
+                                <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(102, 126, 234, 0.1); transition: all 0.3s ease;"
+                                     onmouseover="this.style.paddingLeft='10px'; this.style.color='#667eea'"
+                                     onmouseout="this.style.paddingLeft='0'; this.style.color='inherit'">
+                                    <i class="fas fa-ruler-vertical" style="color: #667eea; margin-right: 15px; font-size: 1.2rem; width: 25px; text-align: center;"></i>
+                                    <span><strong style="color: #4a5568; margin-right: 8px;">Height:</strong> 5'10"</span>
+                                </div>
+                                <div style="display: flex; align-items: center; padding: 12px 0; transition: all 0.3s ease;"
+                                     onmouseover="this.style.paddingLeft='10px'; this.style.color='#667eea'"
+                                     onmouseout="this.style.paddingLeft='0'; this.style.color='inherit'">
+                                    <i class="fas fa-laptop-code" style="color: #667eea; margin-right: 15px; font-size: 1.2rem; width: 25px; text-align: center;"></i>
+                                    <span><strong style="color: #4a5568; margin-right: 8px;">Passion:</strong> Tech Enthusiast</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <p> I am also knowledgeable in programming languages
-                            such as C, C++, and Java. With the extreme
-                            motivation to constantly develop my skills and grow, I
-                            have participated in and worked on many projects
-                            matching my major. I am seeking an internship at
-                            some renowned institute where I can grow
-                            professionally and personally.
+
+                    <div style="background: linear-gradient(135deg, #f093fb15 0%, #f5576c15 100%); border-radius: 15px; padding: 30px; margin-top: 30px;">
+                        <h3 style="color: #2d3748; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; display: flex; align-items: center;">
+                            <i class="fas fa-tools" style="color: #f5576c; margin-right: 10px;"></i>
+                            Technical Skills
+                        </h3>
+                        <div>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">HTML5</span>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">CSS3</span>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">JavaScript</span>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">C</span>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">C++</span>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">Java</span>
+                            <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 20px; border-radius: 25px; margin: 5px; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);"
+                                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(102, 126, 234, 0.5)'"
+                                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102, 126, 234, 0.3)'">Responsive Design</span>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 40px; padding-top: 30px; border-top: 2px solid rgba(102, 126, 234, 0.2);">
+                        <p style="color: #4a5568; font-size: 1.1rem; font-style: italic; margin-bottom: 20px;">
+                            I am knowledgeable in programming languages such as C, C++, and Java. With extreme motivation to constantly develop my skills and grow, I have participated in and worked on many projects matching my major. I am seeking an internship at a renowned institute where I can grow professionally and personally.
                         </p>
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
+    </div>
+</section>
 
     <!-- services section-->
     <section id="services">
